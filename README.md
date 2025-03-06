@@ -1,4 +1,4 @@
-![Gradle Build]([https://github.com/github/docs/actions/workflows/main.yml/](https://github.com/Oz-NoXIII/ClockSystem-TP3/actions/workflows/gradle.yml/badge.svg)
+![Gradle Build](https://github.com/Oz-NoXIII/ClockSystem-TP3/actions/workflows/gradle.yml/badge.svg)
 # ClockSystem
 
 This is a gradle-based Java project for a Clock with Swing GUI and JUnit5 unit tests. It has been created and used by Tom Mens for educational purposes at the University of Mons.

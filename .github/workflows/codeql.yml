@@ -39,6 +39,14 @@ jobs:
       actions: read
       contents: read
 
+    env:
+      DISPLAY: ":99.0" # Set a display for Xvfb
+
+    services:
+      xvfb:
+        image: selenium/standalone-chrome:latest
+        options: -e VNC_SERVER=true -e VNC_PORT=5900
+
     strategy:
       fail-fast: false
       matrix:
@@ -61,6 +69,9 @@ jobs:
       with:
         gradle-version: '8.10'
 
+    - name: Start Xvfb
+      run: Xvfb $DISPLAY -ac -screen 0 1600x1200x24 > /dev/null 2>&1 &
+    
     - name: Build project with Gradle
       run: gradle build
 

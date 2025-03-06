@@ -73,6 +73,7 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
+        queries: security-experimental,security-extended,security-and-quality
 
     - name: Build project with Gradle
       run: gradle build

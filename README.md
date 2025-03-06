@@ -1,6 +1,7 @@
 ![Gradle Build](https://github.com/Oz-NoXIII/ClockSystem-TP3/actions/workflows/gradle.yml/badge.svg)
 ![PMD](https://github.com/Oz-NoXIII/ClockSystem-TP3/actions/workflows/pmd.yml/badge.svg)
 ![CodeQL](https://github.com/Oz-NoXIII/ClockSystem-TP3/actions/workflows/codeql.yml/badge.svg)
+![ScoreCard analysis](https://github.com/Oz-NoXIII/ClockSystem-TP3/actions/workflows/scorecard.yml/badge.svg)
 
 # ClockSystem
 
